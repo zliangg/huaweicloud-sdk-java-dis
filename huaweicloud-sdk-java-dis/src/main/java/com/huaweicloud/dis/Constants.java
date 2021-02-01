@@ -194,12 +194,4 @@ public interface Constants
     String COMPRESS_LZ4_CONTENT_LENGTH = "x-dis-lz4-content-length";
 
     String COMPRESS_ZSTD_CONTENT_LENGTH = "x-dis-zstd-content-length";
-
-    final String STREAMINFO_EXPIRETIME = "expireTime";
-
-    final String STREAMINFO_REAL_EXPIRETIME = "realExpireTime";
-
-    final String CACHE_EXPIRETIME = "cacheTime";
-
-    final long CACHE_TIME_OUT = 5;
 }
